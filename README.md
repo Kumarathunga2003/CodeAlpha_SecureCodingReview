@@ -42,3 +42,28 @@ pip install flask bcrypt
 ---
 
 ## Project Structure
+
+CodeAlpha_SecureCodingReview/
+├── vulnerable_app.py        # Intentionally vulnerable Flask app (DO NOT deploy)
+├── secure_app.py            # Fully remediated version
+├── secure_coding_report.md  # Detailed vulnerability report
+└── README.md
+
+---
+
+## Disclaimer
+`vulnerable_app.py` is **intentionally insecure** and exists solely for educational purposes. **Never deploy it in a real environment.**
+
+---
+
+##  Tools Used
+- Manual Code Review
+- [Bandit](https://bandit.readthedocs.io/) — Python static analysis
+- OWASP ZAP — Dynamic scanning
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+
+---
+
+**Author:** R.P.G.B Kumarathunga  
+**Internship:** CodeAlpha Cybersecurity Internship  
+🔗 [CodeAlpha](https://www.codealpha.tech)
